@@ -156,6 +156,7 @@
     <Compile Include="Models\database_firewall_rules.cs">
       <DependentUpon>2commaclubgoalsdb.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Paging.cs" />
     <Compile Include="Models\UserRegistration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
