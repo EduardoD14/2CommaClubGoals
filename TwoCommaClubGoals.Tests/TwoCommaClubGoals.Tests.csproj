@@ -90,7 +90,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Controllers\HomeControllerTest.cs" />
+    <Compile Include="UnitTest\SubscriptionTests.cs" />
+    <Compile Include="UnitTest\GeneralTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
