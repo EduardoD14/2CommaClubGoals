@@ -30,6 +30,18 @@ namespace TwoCommaClubGoals.Controllers
         {
             return View();
         }
+        public ViewResult Credit()
+        {
+            return View();
+        }
+        public ViewResult Investing()
+        {
+            return View();
+        }
+        public ViewResult Savings()
+        {
+            return View();
+        }
         public ViewResult UnderConstruction()
         {
             return View();
