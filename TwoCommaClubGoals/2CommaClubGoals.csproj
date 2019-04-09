@@ -224,6 +224,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Credit\" />
+    <Folder Include="Views\Investing\" />
+    <Folder Include="Views\Savings\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
