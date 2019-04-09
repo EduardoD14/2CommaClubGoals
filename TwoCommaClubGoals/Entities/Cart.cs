@@ -49,4 +49,3 @@ namespace TwoCommaClubGoals.Entities
             public int Quantity { get; set; }
         }
     }
-}

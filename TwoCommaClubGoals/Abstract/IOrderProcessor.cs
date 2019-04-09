@@ -8,7 +8,7 @@ using TwoCommaClubGoals.Entities;
 
 namespace TwoCommaClubGoals.Abstract
 {
-    interface IOrderProcessor
+    public interface IOrderProcessor
     {
         void ProcessOrder(Cart cart);
     }

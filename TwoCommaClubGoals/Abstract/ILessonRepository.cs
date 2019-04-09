@@ -7,7 +7,7 @@ using TwoCommaClubGoals.Entities;
 
 namespace TwoCommaClubGoals.Abstract
 {
-    interface ILessonRepository
+    public interface ILessonRepository
     {
         IEnumerable<Lesson> Lessons { get; }
     }

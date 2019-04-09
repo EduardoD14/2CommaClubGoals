@@ -9,6 +9,8 @@ using TwoCommaClubGoals.Controllers;
 using TwoCommaClubGoals.HtmlHelpers;
 using TwoCommaClubGoals.Models;
 using TwoCommaClubGoals.Entities;
+using TwoCommaClubGoals.Abstract;
+using Moq;
 
 namespace TwoCommaClubGoals.Tests.UnitTest
 {
@@ -106,10 +108,10 @@ namespace TwoCommaClubGoals.Tests.UnitTest
             public void Can_Add_Course_To_Cart()
             {
                 // Arrange - create the mock repository 
-                Mock<IlessonRepository> mock = new Mock<IlessonRepository>();
-                mock.Setup(m => m.lessons).Returns(new Lesson[]
+                Mock<ILessonRepository> mock = new Mock<ILessonRepository>();
+                mock.Setup(m => m.Lessons).Returns(new Lesson[]
                 {
-                new lesson {lessonID = 1, Name = "P1", Category = "Apples"},
+                new Lesson {lessonID = 1, Name = "P1", Category = "Apples"},
                 }.AsQueryable());
                 // Arrange - create a Cart 
                 Cart cart = new Cart();
@@ -119,16 +121,16 @@ namespace TwoCommaClubGoals.Tests.UnitTest
                 target.AddToCart(cart, 1, null);
                 // Assert 
                 Assert.AreEqual(cart.Lines.Count(), 1);
-                Assert.AreEqual(cart.Lines.ToArray()[0].lesson.lessonID, 1);
+                Assert.AreEqual(cart.Lines.ToArray()[0].Lesson.lessonID, 1);
             }
             [TestMethod]
             public void Adding_lesson_To_Cart_Goes_To_Cart_Screen()
             {
                 // Arrange - create the mock repository 
-                Mock<IlessonRepository> mock = new Mock<IlessonRepository>();
-                mock.Setup(m => m.lessons).Returns(new lesson[]
+                Mock<ILessonRepository> mock = new Mock<ILessonRepository>();
+                mock.Setup(m => m.Lessons).Returns(new Lesson[]
                 {
-                new lesson {lessonID = 1, Name = "P1", Category = "Apples"},
+                new Lesson {lessonID = 1, Name = "P1", Category = "Apples"},
                 }.AsQueryable());
                 // Arrange - create a Cart 
                 Cart cart = new Cart();
@@ -160,14 +162,12 @@ namespace TwoCommaClubGoals.Tests.UnitTest
                 Mock<IOrderProcessor> mock = new Mock<IOrderProcessor>();
                 // Arrange - create an empty cart
                 Cart cart = new Cart();
-                // Arrange - create shipping details 
-                ShippingDetails shippingDetails = new ShippingDetails();
                 // Arrange - create an instance of the controller
                 CartController target = new CartController(null, mock.Object);
                 // Act 
-                ViewResult result = target.Checkout(cart, shippingDetails);
+                ViewResult result = target.Checkout(cart);
                 // Assert - check that the order hasn't been passed on to the processor
-                mock.Verify(m => m.ProcessOrder(It.IsAny<Cart>(), It.IsAny<ShippingDetails>()),
+                mock.Verify(m => m.ProcessOrder(It.IsAny<Cart>()),
                     Times.Never());
                 // Assert - check that the method is returning the default view 
                 Assert.AreEqual("", result.ViewName);
@@ -181,13 +181,13 @@ namespace TwoCommaClubGoals.Tests.UnitTest
                 // Arrange - create a mock order processor 
                 Mock<IOrderProcessor> mock = new Mock<IOrderProcessor>();
                 // Arrange - create a cart with an item
-                Cart cart = new Cart(); cart.AddItem(new lesson(), 1);
+                Cart cart = new Cart(); cart.AddItem(new Lesson(), 1);
                 // Arrange - create an instance of the controller
                 CartController target = new CartController(null, mock.Object);
                 // Act - try to checkout
-                ViewResult result = target.Checkout(cart, new ShippingDetails());
+                ViewResult result = target.Checkout(cart);
                 // Assert - check that the order has been passed on to the processor 
-                mock.Verify(m => m.ProcessOrder(It.IsAny<Cart>(), It.IsAny<ShippingDetails>()),
+                mock.Verify(m => m.ProcessOrder(It.IsAny<Cart>()),
                     Times.Once());
                 // Assert - check that the method is returning the Completed view 
                 Assert.AreEqual("Completed", result.ViewName);
