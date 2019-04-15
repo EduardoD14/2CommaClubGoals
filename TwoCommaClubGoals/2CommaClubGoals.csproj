@@ -250,7 +250,6 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Courses\Investing.cshtml" />
     <Content Include="Views\Courses\Savings.cshtml" />
     <Content Include="Views\Courses\Credit.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
@@ -265,7 +264,8 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\Courses.cshtml" />
-    <None Include="Views\Courses\Introduction.cshtml" />
+    <Content Include="Views\Home\Investing.cshtml" />
+    <Content Include="Views\Courses\Investing.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

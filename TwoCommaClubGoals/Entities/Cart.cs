@@ -11,7 +11,7 @@ namespace TwoCommaClubGoals.Entities
             public void AddItem(Lesson lesson, int quantity)
             {
                 CartLine line = lineCollection
-                    .Where(p => p.Lesson.lessonID == lesson.lessonID)
+                    .Where(p => p.Lesson.LessonID == lesson.LessonID)
                     .FirstOrDefault();
                 if (line == null)
                 {
@@ -28,7 +28,7 @@ namespace TwoCommaClubGoals.Entities
             }
             public void RemoveLine(Lesson Lesson)
             {
-                lineCollection.RemoveAll(l => l.Lesson.lessonID == Lesson.lessonID);
+                lineCollection.RemoveAll(l => l.Lesson.LessonID == Lesson.LessonID);
             }
             public decimal ComputeTotalValue()
             {

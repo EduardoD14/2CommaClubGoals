@@ -30,9 +30,9 @@ public class CartController : Controller
         }
         );
     }
-    public RedirectToRouteResult AddToCart(Cart cart, int LessonId, string returnUrl)
+    public RedirectToRouteResult AddToCart(Cart cart, int LessonID, string returnUrl)
     {
-        Lesson Lesson = repository.Lessons.FirstOrDefault(p => p.lessonID == LessonId);
+        Lesson Lesson = repository.Lessons.FirstOrDefault(p => p.LessonID == LessonID);
         if (Lesson != null)
         {
             cart.AddItem(Lesson, 1);
@@ -43,9 +43,9 @@ public class CartController : Controller
         }
         );
     }
-    public RedirectToRouteResult RemoveFromCart(Cart cart, int LessonId, string returnUrl)
+    public RedirectToRouteResult RemoveFromCart(Cart cart, int LessonID, string returnUrl)
     {
-        Lesson Lesson = repository.Lessons.FirstOrDefault(p => p.lessonID == LessonId);
+        Lesson Lesson = repository.Lessons.FirstOrDefault(p => p.LessonID == LessonID);
         if (Lesson != null)
         {
             cart.RemoveLine(Lesson);

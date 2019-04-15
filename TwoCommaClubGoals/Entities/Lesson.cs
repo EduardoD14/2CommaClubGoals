@@ -7,7 +7,7 @@ namespace TwoCommaClubGoals.Entities
 {
     public class Lesson
     {
-        public int lessonID { get; set; }
+        public int LessonID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
