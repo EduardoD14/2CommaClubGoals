@@ -1,38 +1,54 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Investing";
 }
+<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.Message</h3>
 
-<div class="jumbotron">
-    <h1> 2 Comma Club(noun): </h1>
-    <p class="lead"> An elite group of individuals that have an income or net worth that is equal to or greater than $1,000,000.</p>
-    <p class="lead"> What does it take to be part of this club? The answer is simple, not much. Would you like to join?</p>
-    <p><a href="~/Home/About" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="container pt-5 pb-3">
+
+    <p>
+        “This course will guide you the basics of Investing.
+        If you have been struggling to understand what investing really entails or where to get started
+        then I personally guarantee you’ll finally understand when you finish this course.” — Eduardo Davila
+    </p>
+    <ul>
+        <li>Carefully crafted explanations that are broken down in terms that even kids will understand. Concise, approachable, engaging.</li>
+        <li>Learn where to get started, how much money you'll really need, and how much you want to end up with to live a decent life.</li>
+        <li>Guides you to learn the truly important concepts to be productive as quickly as possible.</li>
+        <li>Review sessions that boil down topics to their essence while helping you build a handy cheat sheet for your reference.</li>
+        <li>Take quizzes on the material to test your knowledge.</li>
+    </ul>
+    <p>Weekly Q&A sessions with Eduardo to make sure that no question goes unanswered.</p>
+    <hr>
+    <h4>Lessons in this Course</h4>
+    <table class="table">
+        <tbody>
+            <tr>
+                <th class="text-center">Completed</th>
+                <th>Course Step</th>
+                <th>Step Type</th>
+                <th>Learning Material</th>
+            </tr>
+            <tr>
+                <td class="text-center"><i class="fa fa-lg fa-square-o text-muted" aria-hidden="true"></i></td>
+                <td>Lesson 1 - Series Introduction</td>
+                <td>Lesson</td>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/Sbp_t4guM8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td class="text-center"><i class="fa fa-lg fa-square-o text-muted" aria-hidden="true"></i></td>
+                <td>Lesson 2 - What does going Long Mean? </td>
+                <td>Lesson</td>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/EQOxKyFxeoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td class="text-center"><i class="fa fa-lg fa-square-o text-muted" aria-hidden="true"></i></td>
+                <td>Lesson 3 - What does shorting mean?</td>
+                <td>Lesson</td>
+                <td><iframe width="560" height="315" src="https://www.youtube.com/embed/TTvaXCmtVbI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Investing(verb):</h2>
-        <p>
-            to expend money with the expectation of achieving a profit
-            or material result by putting it into 
-            financial schemes, shares, or property, or 
-            by using it to develop a commercial venture.
-            Some call it "Glorified Gambling"
-        </p>
-        <p><a class="btn btn-default" href="~/Views/Courses/Investing">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Savings(noun):</h2>
-        <p> The result of preventing the waste of a particular resource,
-            I.E: Money 
-        </p>
-        <p><a class="btn btn-default" href="~/Views/Courses/Savings">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Credit(noun):</h2>
-        <p>The ability of a customer to acquire goods or services before payment.
-            Every financial institution sees this when they look at you, nothing more. 
-        </p>
-        <p><a class="btn btn-default" href="~/Views/Courses/Credit">Learn more &raquo;</a></p>
-    </div>
-</div>
+

@@ -131,6 +131,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\Lesson.cs" />
@@ -264,7 +265,6 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\Courses.cshtml" />
-    <Content Include="Views\Home\Investing.cshtml" />
     <Content Include="Views\Courses\Investing.cshtml" />
   </ItemGroup>
   <ItemGroup>
