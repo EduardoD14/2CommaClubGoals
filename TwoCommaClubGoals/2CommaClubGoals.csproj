@@ -173,6 +173,10 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\2cc.jpg" />
+    <Content Include="Images\Comma dark.png" />
+    <Content Include="Images\Credit.jpg" />
+    <Content Include="Images\Investing.jpg" />
+    <Content Include="Images\Savings.jpg" />
     <Content Include="Models\2commaclubgoalsdb.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>2commaclubgoalsdb.Context.cs</LastGenOutput>
@@ -246,9 +250,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\Investing.cshtml" />
-    <Content Include="Views\Home\Savings.cshtml" />
-    <Content Include="Views\Home\Credit.cshtml" />
+    <Content Include="Views\Courses\Investing.cshtml" />
+    <Content Include="Views\Courses\Savings.cshtml" />
+    <Content Include="Views\Courses\Credit.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
     <Content Include="Views\Home\UnderConstruction.cshtml" />
     <Content Include="Scripts\umd\popper.min.js.map" />
@@ -260,12 +264,11 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Views\Home\Courses.cshtml" />
+    <None Include="Views\Courses\Introduction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Credit\" />
-    <Folder Include="Views\Investing\" />
-    <Folder Include="Views\Savings\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

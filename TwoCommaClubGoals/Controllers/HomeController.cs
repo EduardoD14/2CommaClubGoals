@@ -42,6 +42,10 @@ namespace TwoCommaClubGoals.Controllers
         {
             return View();
         }
+        public ViewResult Courses()
+        {
+            return View();
+        }
         public ViewResult UnderConstruction()
         {
             return View();
