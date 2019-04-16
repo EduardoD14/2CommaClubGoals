@@ -21,8 +21,8 @@ namespace TwoCommaClubGoals.Tests.UnitTest
         [TestMethod]
         public void Adding_Courses_New_Line()
         { // Arrange - create some test lessons
-            Lesson p1 = new Lesson { lessonID = 1, Name = "P1" };
-            Lesson p2 = new Lesson { lessonID = 2, Name = "P2" };
+            Lesson p1 = new Lesson { LessonID = 1, Name = "P1" };
+            Lesson p2 = new Lesson { LessonID = 2, Name = "P2" };
             // Arrange - create a new cart 
             Cart target = new Cart();
             // Act 
@@ -39,15 +39,15 @@ namespace TwoCommaClubGoals.Tests.UnitTest
         public void Can_Add_Quantity_For_Existing_Course_Lines()
         {
             // Arrange - create some test lessons
-            Lesson p1 = new Lesson { lessonID = 1, Name = "P1" };
-            Lesson p2 = new Lesson { lessonID = 2, Name = "P2" };
+            Lesson p1 = new Lesson { LessonID = 1, Name = "P1" };
+            Lesson p2 = new Lesson { LessonID = 2, Name = "P2" };
             // Arrange - create a new cart
             Cart target = new Cart();
             // Act 
             target.AddItem(p1, 1);
             target.AddItem(p2, 1);
             target.AddItem(p1, 10);
-            CartLine[] results = target.Lines.OrderBy(c => c.Lesson.lessonID).ToArray();
+            CartLine[] results = target.Lines.OrderBy(c => c.Lesson.LessonID).ToArray();
             // Assert 
             Assert.AreEqual(results.Length, 2);
             Assert.AreEqual(results[0].Quantity, 11);
@@ -57,9 +57,9 @@ namespace TwoCommaClubGoals.Tests.UnitTest
         public void Can_Remove_CourseLine()
         {
             // Arrange - create some test lessons 
-            Lesson p1 = new Lesson { lessonID = 1, Name = "P1" };
-            Lesson p2 = new Lesson { lessonID = 2, Name = "P2" };
-            Lesson p3 = new Lesson { lessonID = 3, Name = "P3" };
+            Lesson p1 = new Lesson { LessonID = 1, Name = "P1" };
+            Lesson p2 = new Lesson { LessonID = 2, Name = "P2" };
+            Lesson p3 = new Lesson { LessonID = 3, Name = "P3" };
             // Arrange - create a new cart
             Cart target = new Cart();
             // Arrange - add some lessons to the cart 
@@ -76,8 +76,8 @@ namespace TwoCommaClubGoals.Tests.UnitTest
         [TestMethod]
         public void Calculate_Cart_Total_For_Courses_Added()
         { // Arrange - create some test lessons
-            Lesson p1 = new Lesson { lessonID = 1, Name = "P1", Price = 100 };
-            Lesson p2 = new Lesson { lessonID = 2, Name = "P2", Price = 50 };
+            Lesson p1 = new Lesson { LessonID = 1, Name = "P1", Price = 100 };
+            Lesson p2 = new Lesson { LessonID = 2, Name = "P2", Price = 50 };
             // Arrange - create a new cart 
             Cart target = new Cart();
             // Act
@@ -92,8 +92,8 @@ namespace TwoCommaClubGoals.Tests.UnitTest
         public void Can_Clear_Couses_From_Cart()
         {
             // Arrange - create some test lessons
-            Lesson p1 = new Lesson { lessonID = 1, Name = "P1", Price = 100 };
-            Lesson p2 = new Lesson { lessonID = 2, Name = "P2", Price = 50 };
+            Lesson p1 = new Lesson { LessonID = 1, Name = "P1", Price = 100 };
+            Lesson p2 = new Lesson { LessonID = 2, Name = "P2", Price = 50 };
             // Arrange - create a new cart
             Cart target = new Cart();
             // Arrange - add some items
@@ -111,7 +111,7 @@ namespace TwoCommaClubGoals.Tests.UnitTest
             Mock<ILessonRepository> mock = new Mock<ILessonRepository>();
             mock.Setup(m => m.Lessons).Returns(new Lesson[]
             {
-                new Lesson {lessonID = 1, Name = "P1", Category = "Apples"},
+                new Lesson {LessonID = 1, Name = "P1", Category = "Apples"},
             }.AsQueryable());
             // Arrange - create a Cart 
             Cart cart = new Cart();
@@ -121,7 +121,7 @@ namespace TwoCommaClubGoals.Tests.UnitTest
             target.AddToCart(cart, 1, null);
             // Assert 
             Assert.AreEqual(cart.Lines.Count(), 1);
-            Assert.AreEqual(cart.Lines.ToArray()[0].Lesson.lessonID, 1);
+            Assert.AreEqual(cart.Lines.ToArray()[0].Lesson.LessonID, 1);
         }
         [TestMethod]
         public void Adding_lesson_To_Cart_Goes_To_Cart_Screen()
@@ -130,7 +130,7 @@ namespace TwoCommaClubGoals.Tests.UnitTest
             Mock<ILessonRepository> mock = new Mock<ILessonRepository>();
             mock.Setup(m => m.Lessons).Returns(new Lesson[]
             {
-                new Lesson {lessonID = 1, Name = "P1", Category = "Apples"},
+                new Lesson {LessonID = 1, Name = "P1", Category = "Apples"},
             }.AsQueryable());
             // Arrange - create a Cart 
             Cart cart = new Cart();
