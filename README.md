@@ -21,9 +21,10 @@
 | 4.1  | [Unit Test](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)						  |
 
 <h2>PowerPoint Presentation</h2>
+
 ![image](https://user-images.githubusercontent.com/47153835/56358400-57a48f80-6193-11e9-807c-4b3c56aacd64.png)
 
-[PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
+[Link to Latest PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
 
 
 <h2>Design OutLook/Requirements</h2>
