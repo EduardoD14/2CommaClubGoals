@@ -9,17 +9,19 @@
 ##  Table of Contents
 |Location|Content                        |
 |:-|-|
-| 1.   | [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)									   |
-| 1.1  | [PowerPoint Presentation - Latest Version](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)				   |
-| 1.2  | [Requirement Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#DesignOutlook/Requirements)			   |
-|2.   | [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#Database-Design)				 |
-| 2.1  | [Table Scripts](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#Database-Design)|
-| 2.2  | [Class Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#class-diagram-from-entity-framework-datamodel)			  |
-| 3.   | [WireFrames](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#WireframesScreenshots)									  |
-| 3.1  | [Contact page](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#contact-page)	|
-| 3.   | [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#Prioritized-Backlog-Items)						  |
-| 4.   | [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)															  |
-| 4.1  | [Unit Test](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)						  |
+|1| [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)	  |
+|3| [Table of contents](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Table of contents)	  |
+|4| [Power Point Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Power Point Presentation)	  |
+|5| [Requirements Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements Traceability Matrix)	  |
+|6| [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized Backlog Items)	  |
+|7| [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database Design)	  |
+|8| [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Tests)	  |
+|9| [Use Case](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Use Case)	  |
+|10|[Entity Relationship Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity Relationship Diagram)	  |
+|11|[Physical Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical Database Design)	  |
+
+
+
 
 ## PowerPoint Presentation
 
