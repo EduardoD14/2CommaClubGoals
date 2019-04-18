@@ -4,9 +4,6 @@
 
 *I have purchased http://2commaclubgoals.com/ but I am not running the site on this domain in a way to minimize costs in the steps prior to the website launch. To view the website  in it's current state go to http://2commaclubgoals.azurewebsites.net/*
 <h2>Table of Content</h2>
-
-<center>
- 
 |Location|Content|
 |:--- | ---- |
 | 1.   | [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)									   |
@@ -20,8 +17,6 @@
 | 3.   | [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#Prioritized-Backlog-Items)						  |
 | 4.   | [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)															  |
 | 4.1  | [Unit Test](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)						  |
-
-</center>
 
 <h2>Design OutLook/Requirements</h2>
 
