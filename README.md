@@ -4,9 +4,9 @@
 
 *I have purchased http://2commaclubgoals.com/ but I am not running the site on this domain in a way to minimize costs in the steps prior to the website launch. To view the website  in it's current state go to http://2commaclubgoals.azurewebsites.net/*
 
-<h2>Table of Content</h2>
+<h2>Table of Contents</h2>
 
-|Location|Content|
+|Location|Content                        |
 |:--- | ---- |
 | 1.   | [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)									   |
 | 1.1  | [PowerPoint Presentation - Latest Version](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)				   |
@@ -20,10 +20,12 @@
 | 4.   | [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)															  |
 | 4.1  | [Unit Test](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)						  |
 
+<h2>PowerPoint Presentation</h2>
+![image](https://user-images.githubusercontent.com/47153835/56358400-57a48f80-6193-11e9-807c-4b3c56aacd64.png)
+[PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
+
+
 <h2>Design OutLook/Requirements</h2>
-
-[PowerPoint Presentation- Latest Version](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
-
 <h3>Requirement Trace
 
 ### Prerequisites
