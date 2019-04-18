@@ -11,7 +11,7 @@
 |:-|-|
 |1| [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)	  |
 |2| [PowerPoint-Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##PowerPoint-Presentation)	  |
-|3| [Requirements-Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements-Traceability Matrix)	  |
+|3| [Requirements-Traceability-Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements-Traceability-Matrix)	  |
 |4| [Prioritized-Backlog-Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized-Backlog-Items)	  |
 |5| [Database-Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database-Design)	  |
 |6| [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Tests)	  |
