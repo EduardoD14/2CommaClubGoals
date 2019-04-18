@@ -10,18 +10,15 @@
 |Location|Content                        |
 |:-|-|
 |1| [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)	  |
-|3| [Table of contents](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Table of contents)	  |
-|4| [Power Point Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Power Point Presentation)	  |
-|5| [Requirements Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements Traceability Matrix)	  |
-|6| [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized Backlog Items)	  |
-|7| [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database Design)	  |
-|8| [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Tests)	  |
-|9| [Use Case](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Use Case)	  |
-|10|[Entity Relationship Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity Relationship Diagram)	  |
-|11|[Physical Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical Database Design)	  |
-
-
-
+|2| [Table of Contents](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Table of contents)	  |
+|3| [Power Point Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Power Point Presentation)	  |
+|4| [Requirements Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements Traceability Matrix)	  |
+|5| [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized Backlog Items)	  |
+|6| [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database Design)	  |
+|7| [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Tests)	  |
+|8| [Use Case](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Use Case)	  |
+|9|[Entity Relationship Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity Relationship Diagram)	  |
+|10|[Physical Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical Database Design)	  |
 
 ## PowerPoint Presentation
 
