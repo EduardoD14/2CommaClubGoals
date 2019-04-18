@@ -1,11 +1,29 @@
 # <pre>      ![SmallLogo](https://user-images.githubusercontent.com/47153835/56347974-56b33400-617a-11e9-90e6-6500cf8f6795.png)
 # 2CommaClubGoals 
 <h3>Too many of us do not know how to manage our finances. There are too many secrets that the banks and wealthy do not share. It is time to start our journey to the 2 Comma Club</h3>
-## Link to Site
-http://2commaclubgoals.azurewebsites.net/
-## Draft Presentation 
-https://drive.google.com/open?id=1s6zs6fvB61n7MP9RWeaBs5if6lE5kwa5
 
+*I have purchased http://2commaclubgoals.com/ but I am not running the site on this domain in a way to minimize costs in the steps prior to the website launch. To view the website  in it's current state go to http://2commaclubgoals.azurewebsites.net/*
+<h2>Table of Content</h2>
+
+|Location|Content|
+|:--- | ---- |
+| 1.   | [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)									   |
+| 1.1  | [PowerPoint Presentation - Latest Version](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)				   |
+| 1.2  | [Requirement Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#DesignOutlook/Requirements)			   |
+ |2.   | [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#Database-Design)										   |
+| 2.1  | [Table Scripts](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#Database-Design)|
+| 2.2  | [Class Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#class-diagram-from-entity-framework-datamodel)			  |
+| 3.   | [WireFrames](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#WireframesScreenshots)									  |
+| 3.1  | [Contact page](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#contact-page)											  |
+| 3.   | [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#Prioritized-Backlog-Items)						  |
+| 4.   | [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)															  |
+| 4.1  | [Unit Test](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#tests)						  |
+
+<h2>Design OutLook/Requirements</h2>
+
+[PowerPoint Presentation- Latest Version](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
+
+<h3>Requirement Trace
 
 ### Prerequisites
 
