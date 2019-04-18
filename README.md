@@ -79,3 +79,17 @@
 
 #### <Center> [Take me to Tests ](https://github.com/EduardoD14/2CommaClubGoals/tree/master/TwoCommaClubGoals.Tests/UnitTest)
 
+## Use Case
+
+![image](https://user-images.githubusercontent.com/47153835/56371318-c1cc2d00-61b1-11e9-9c2e-0837f4a968c8.png)
+
+#### <Center> [Take me to Tests ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Use%20case%20v1.vsdx)
+
+## ERD Diagram
+![image](https://user-images.githubusercontent.com/47153835/56371647-53d43580-61b2-11e9-9a3b-dbd2966c9740.png)
+
+#### <Center> [Take me to Tests ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Project%20Step%207.docx)
+
+## Physical Database Design 
+![image](https://user-images.githubusercontent.com/47153835/56371824-b2011880-61b2-11e9-992b-e37be8be1ac3.png)
+#### <Center> [Take me to Tests ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Project%20Step%207.docx)
