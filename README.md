@@ -27,7 +27,8 @@
 
 #### <center>                [Link to Latest PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
 
-##<i> The functional requirements for the project as described in the requirements traceability matrix will be tested to ensure 
+## Requirements traceability matrix
+##<i> The functional requirements for the project will be tested to ensure 
 that the web site is meeting the design objectives. Each requirement in the requirements traceability matrix
  will have a corresponding test case or unit test that describes how each individual requirement can be validated. Routine
  testing will occur to not only validate new build in the website but also to test 
