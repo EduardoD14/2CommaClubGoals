@@ -1,13 +1,16 @@
 
-# <pre>      ![SmallLogo](https://user-images.githubusercontent.com/47153835/56347974-56b33400-617a-11e9-90e6-6500cf8f6795.png)
-# 2CommaClubGoals 
-### Too many of us do not know how to manage our finances. There are too many secrets that the banks and wealthy do not share. It is time to start our journey to the 2 Comma Club
+
+### <center> ![SmallLogo](https://user-images.githubusercontent.com/47153835/56347974-56b33400-617a-11e9-90e6-6500cf8f6795.png)
+# <center> 2CommaClubGoals 
+### <center>  Too many of us do not know how to manage our finances... 
+### <center> There are too many secrets that the banks and wealthy do not share...
+### <center> It is time to start our journey to the 2 Comma Club
 
 *I have purchased http://2commaclubgoals.com/ but I am not running the site on this domain in a way to minimize costs in the steps prior to the website launch. To view the website  in it's current state go to http://2commaclubgoals.azurewebsites.net/*
 
 ##  Table of Contents
 |Location|Content                        |
-|:--- | ---- |
+|:-|-|
 | 1.   | [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)									   |
 | 1.1  | [PowerPoint Presentation - Latest Version](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)				   |
 | 1.2  | [Requirement Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#DesignOutlook/Requirements)			   |
@@ -26,10 +29,10 @@
 
 #### <center>                [Link to Latest PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
 
-###  <center> Traceability Matrix
+## <center> Traceability Matrix
 
 | ID | Requirements   | How?      | Being Met?  | Unit Test Passing? |
-|:---| -------------- |-----------|----------------| ------------------ |
+|:--:| :-:|:-:|:-:|:-:|
 | 1 | Aesthetic Design | CSS & JavaScript | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
 | 1.1 | Web Application Dynamic & Interactive | JavaScript |  <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
 | 1.2 | Styling Uniform & Pleasing To App owner | CSS | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
@@ -85,88 +88,28 @@
 | 11.1.1 | Links Hold Images On Containers Linked to Their Azure BLOB | Azure BLOB & DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
 | 11.2 | Safe-Access Key if Client Wants Their Images Secret | Hashed Key & DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
 
+<h2>Prioritized Backlog Items</h2>
+
+|Task ID|Requirement|
+|:-:|:-|
+|10 | Starting to develop unit test| 
+| 4.2 |Integrating Azure BLOB To Create Containers & Then Images to Those Containers| 
+| 4.1 | Reading Images From Azure BLOB		|
+| 2.2 |Using DB to Implement Reading "Potential Clients" From Admin Account	|
+| 9  | Adding Photographer Adminstrator Accounts	|
+|5.1 & 5.2|Add Shopping Page For Print Gallery| 
+|11.1.1|  Integrating Azure BLOB to Download Images From Photoshoots| 
+| 5.4 | Allow Users to Purchase Photoshoot Through Calender & Book Appointments On Their Own |
+
+#### <Center>  <i>  Once all functionality is complete and ready to be deployed the "pretty" design will be a collaborative effort with the client
 
 ## Database Design
-![image](https://user-images.githubusercontent.com/47153835/56359453-78baaf80-6196-11e9-8855-4aab3cdea238.png)
-### <center> [Take me to CreateTable Scripts](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Making%20and%20Updating%20Users.sql) 
+![image](https://user-images.githubusercontent.com/47153835/56359699-229a3c00-6197-11e9-832b-68df6e90b7f2.png)
+#### <center> [Take me to CreateTable Scripts](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Making%20and%20Updating%20Users.sql) 
 
-### Prerequisites
+## Tests
 
-What things you need to install the software and how to install them
+![image](https://user-images.githubusercontent.com/47153835/56360121-6b062980-6198-11e9-9872-41da19b827c4.png)
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+#### <Center> [Take me to Tests ](https://github.com/EduardoD14/2CommaClubGoals/tree/master/TwoCommaClubGoals.Tests/UnitTest)
 
