@@ -22,6 +22,7 @@
 
 <h2>PowerPoint Presentation</h2>
 ![image](https://user-images.githubusercontent.com/47153835/56358400-57a48f80-6193-11e9-807c-4b3c56aacd64.png)
+
 [PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
 
 
