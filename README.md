@@ -29,41 +29,43 @@
 
 ## <center> Traceability Matrix
 
-| ID   | Requirements                                          | How?|        Being Met?         |    Unit Test Passing?     |
-|:--:  | :-:|:-:|:-:|:-:|
-|  1   |Page Structure(Header/Footer)                          |.NET | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.1  |Every Header will display company logo                 | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.2  |Every logo will redirect to home when clicked          | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.3  |Every Header will have a link to the "Log in" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.4  |Every Header will have a link to the "Sign up" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.5  |Every Header will have a link to the "Help" page       | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.6  |Every Header will have a link to the "Blog" page       | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.7  |Every Footer will display link to Contact us page      | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.8  |Every Footer will display link to Terms & Cond.        | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.9  |Every Footer will display link to Privacy Policy       | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.10 |The Homepage will have a link to the "Log in" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.11 |Header will have a Mobile Responsive Design            | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.12 |Every page will have intuitive URLS                    | MVC | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  2   |Page Structure(Home Page)                              |.NET | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.1  |The Homepage will have a link to the "About" page      | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.2  |The Homepage will have a link to the "Sign up" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.3  |The Homepage will have a link to the "Courses" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.4  |The Homepage will have a link to the "Investing" page  | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.5  |The Homepage will have a link to the "Savings" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.6  |The Homepage will have a link to the "Credit" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|   ID   | Requirements                                          | How?|        Being Met?         |    Unit Test Passing?     |
+|  :--:  | :-:|:-:|:-:|:-:|
+|   1    |Page Structure(Header/Footer)                          |.NET | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.1   |Every Header will display company logo                 | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.2   |Every logo will redirect to home when clicked          | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.3   |Every Header will have a link to the "Log in" page     | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.4   |Every Header will have a link to the "Help" page       | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.5   |Every Header will have a link to the "Blog" page       | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.6   |Every Header will have a dropdown menu                 | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.6.1 |The Dropdown will have a link to the "Courses" page    | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.6.2 |The Dropdown will have a link to the "Register" page   | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.6.3 |The Dropdown will have a link to the "Log in" page     | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.6.4 |The Dropdown will have a link to the "Blog" page       | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.6.5 |The Dropdown will have a link to the "Common Calc"page | CSS | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.7   |Every Footer will display link to Contact us page      | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.8   |Every Footer will display link to Terms & Cond. page   | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.9   |Every Footer will display link to Privacy Policy page  | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.10  |The Homepage will have a link to the "Log in" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.11  |Header will have a Mobile Responsive Design            | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  1.12  |Every page will have intuitive URLS                    | MVC | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|   2    |Page Structure(Home Page)                              |.NET | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  2.1   |The Homepage will have a link to the "About" page      | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  2.2   |The Homepage will have a link to the "Sign up" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  2.3   |The Homepage will have a link to the "Courses" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  2.4   |The Homepage will have a link to the "Investing" page  | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  2.5   |The Homepage will have a link to the "Savings" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  2.6   |The Homepage will have a link to the "Credit" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
 
 <h2>Prioritized Backlog Items</h2>
 
 |Task ID|Requirement|
 |:-:|:-|
-|  10 | Starting to develop unit test| 
-| 4.2 |Integrating Azure BLOB To Create Containers & Then Images to Those Containers| 
-| 4.1 | Reading Images From Azure BLOB		|
-| 2.2 |Using DB to Implement Reading "Potential Clients" From Admin Account	|
-| 9   | Adding Photographer Adminstrator Accounts	|
-|5.1 & 5.2|Add Shopping Page For Print Gallery| 
-|11.1.1|  Integrating Azure BLOB to Download Images From Photoshoots| 
-| 5.4 | Allow Users to Purchase Photoshoot Through Calender & Book Appointments On Their Own |
+|  1.7   |Every Footer will display link to Contact us page     
+|  1.8   |Every Footer will display link to Terms & Conditions page       
+|  1.9   |Every Footer will display link to Privacy Policy page
+|  1.10  |The Homepage will have a link to the "Log in" page     
+|  1.12  |Every page will have intuitive URLS           
 
 #### <Center>  <i>  Once all functionality is complete and ready to be deployed the "pretty" design will be a collaborative effort with the client
 
