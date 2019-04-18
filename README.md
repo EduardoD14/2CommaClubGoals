@@ -11,13 +11,13 @@
 |:-|-|
 |1| [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)	  |
 |2| [PowerPoint-Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##PowerPoint-Presentation)	  |
-|3| [Requirements Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements Traceability Matrix)	  |
-|4| [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized Backlog Items)	  |
-|5| [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database Design)	  |
+|3| [Requirements-Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements-Traceability Matrix)	  |
+|4| [Prioritized-Backlog-Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized-Backlog-Items)	  |
+|5| [Database-Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database-Design)	  |
 |6| [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Tests)	  |
-|7| [Use Case](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Use Case)	  |
-|8| [Entity Relationship Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity Relationship Diagram)	  |
-|9| [Physical Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical Database Design)	  |
+|7| [Use-Case](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Use-Case)	  |
+|8| [Entity-Relationship-Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity-Relationship-Diagram)	  |
+|9| [Physical-Database-Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical-Database-Design)	  |
 
 ## PowerPoint-Presentation
 
@@ -25,7 +25,7 @@
 
 #### <center>                [Link to Latest PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
 
-## Requirements Traceability Matrix
+## Requirements-Traceability-Matrix
 ##<i> The functional requirements for the project will be tested to ensure 
 that the web site is meeting the design objectives. Each requirement in the requirements traceability matrix
  will have a corresponding test case or unit test that describes how each individual requirement can be validated. Routine
@@ -119,7 +119,7 @@ previously built portions of the website to ensure that all features are working
 |  3.7   |The about page will display Frequently asked questions 
 |  3.8   |The about page will display a photo disclaimer     
 
-## Database Design
+## Database-Design
 ![image](https://user-images.githubusercontent.com/47153835/56359699-229a3c00-6197-11e9-832b-68df6e90b7f2.png)
 #### <center> [Take me to CreateTable Scripts](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Making%20and%20Updating%20Users.sql) 
 
@@ -129,18 +129,18 @@ previously built portions of the website to ensure that all features are working
 
 #### <Center> [Take me to Tests ](https://github.com/EduardoD14/2CommaClubGoals/tree/master/TwoCommaClubGoals.Tests/UnitTest)
 
-## Use Case
+## Use-Case
 
 ![image](https://user-images.githubusercontent.com/47153835/56371318-c1cc2d00-61b1-11e9-9c2e-0837f4a968c8.png)
 
 #### <Center> [Take me to Use Case ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Use%20case%20v1.vsdx)
 
-## Entity Relationship Diagram
+## Entity-Relationship-Diagram
 ![image](https://user-images.githubusercontent.com/47153835/56371647-53d43580-61b2-11e9-9a3b-dbd2966c9740.png)
 
 #### <Center> [Take me to ERD  ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Project%20Step%207.docx)
 
-## Physical Database Design 
+## Physical-Database-Design 
 ![image](https://user-images.githubusercontent.com/47153835/56371824-b2011880-61b2-11e9-992b-e37be8be1ac3.png)
 #### <center> [Take me to the Physical Database design ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Project%20Step%207.docx)
 </center>
