@@ -1,5 +1,3 @@
-
-
 ### <center> ![SmallLogo](https://user-images.githubusercontent.com/47153835/56347974-56b33400-617a-11e9-90e6-6500cf8f6795.png)
 # <center> 2CommaClubGoals 
 ### <center>  Too many of us do not know how to manage our finances... 
