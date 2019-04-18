@@ -29,72 +29,38 @@
 
 ## <center> Traceability Matrix
 
-| ID | Requirements   | How?      | Being Met?  | Unit Test Passing? |
-|:--:| :-:|:-:|:-:|:-:|
-| 1 | Aesthetic Design | CSS & JavaScript | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.1 | Web Application Dynamic & Interactive | JavaScript |  <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1.2 | Styling Uniform & Pleasing To App owner | CSS | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 1.3 | Mobile Responsive Design | JavaScript & CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 1. 4 | Intuitive URLS | MVC config | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2  | Contact Photographer| Partial View, SMTP, CSS, JavaScript & DB | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 2.1 | Form for Client to Fill | Partial View, CSS, DB, SMTP & JavaScript | <ul><li> - [x] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 2.1.1  | Email Sent to Photographer After Form Filled | SMTP | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.1.2  | Form Design Logical Ex: Textbox Sizes | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 2.1.3  | Logging Potential Clients to Database (DB) |  Database (DB) | <ul><li> - [x] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 2.1.4 | Requirements Set in Front-End and Back-End | JavaScript, [Requirements] | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 2.2  | Potential Clients Accessed Directly From Website if Photographer is Logged In | Partial View Using DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 3  | Blog page | Azure BLOB containers, JavaScript & DB  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 3.1  | CRUD operations | Azure BLOB & DB  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 3.1.1 |  Photographer Is Able To Create new blogs with images and text | Azure BLOB containers & DB | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 3.1.2 |  Photographer Is Able To Read Update & Delete Blogs with Images & Text | Azure BLOB containers & DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 3.2  | Users Can View and Comment On Blog | Azure BLOB containers & DB | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 3.3 | Requirements Set in Front-End and Back-End | JavaScript, [Requirements] | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 4 | Portfolio Page | Azure BLOB & JavaScript | <ul><li> - [ ] </li></ul>|	<ul><li> - [ ] </li></ul> |
-| 4.1  | Portfolio Where Containers for Different Types of Shoots are Displayed Ex: Faces, Events, and Family | Azure BLOB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 4.2 | Photographer Able to CRUD Portfolio Containers | Azure BLOB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 4.3 | Requirements Set in Front-End and Back-End | JavaScript, [Requirements] | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 5 | Shop (Shop and Rates+Packages View) | Azure BLOB, DB, SSL, JavaScript, and Views  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 5.1  | photographer Able to CRUD Purchase Product Images | Azure BLOB & DB | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 5.2  | Clients Able to Purchase tangible products Directly on App | SSL and  Cart & CheckOut Views| <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  5.3 | Photographer Able to CRUD Rates+Packages for Small Photoshoots Directly on App | DB | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 5.4 | Clients Able to Purchase Small Photoshoots Directly on App | SSL , Cart, Checkout, DB, & JavaScript | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 5.4.1 | Client Able to Choose Date and Time Availability From Calendar | JavaScript | <ul><li> - [ ] </li></ul>| 	<ul><li> - [ ] </li></ul> |
-| 5.4.1.1 | Once Purchased Slot is Filled and No Other Photoshoots Can Be Purchased in 1  hour +/- window | DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 5.5 | Requirements Set in Front-End and Back-End | JavaScript, [Requirements] | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 6 | About Me to Get a Closer Feel for Photographer/s | View Accessed through Homepage, JavaScript & DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 6.1 | CRUD Operations for Photographer/s | DB | <ul><li> - [ ] </li></ul>| <ul><li> - [ ] </li></ul> |
-| 6.2 | Requirements Set in Front-End and Back-End | JavaScript, [Requirements] | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 7 | Testimonies/Reviews | Partial View, JavaScript,  & DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 7.1 | Previous and New Clients Able to Create Reviews | Separate View Accessed From Homepage & using DB | <ul><li> - [ ] </li></ul> |	<ul><li> - [ ] </li></ul> |
-| 7.1.1 | Requirements Set in Front-End and Back-End | JavaScript, [Requirements] | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 7.2 | Clients Able to Tie Reviews To Their Photoshoots | Drop Down of Active Photoshoots with no reviews (JavaScript  & DB) | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|7.2.1 | If photographer Wants To Tie Reviews To Images then they are displayed on HomePage | DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 7.2.1 | Client Claiming Photoshoot Verified by Photographer | Admin & Verification Partial View | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 7.3 | Testimonies on Homepage | Partial View Using DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 8 | Highly Cohesive & Loosely Coupled | OOP | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 8.1 | Business Logic Layer, Data Access Layer, & UI Layer Architecture Clearly Defined & Implemented | OOP | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 9  | Hidden Photographer Account Login/Register Page to Change/Add App Content | Hidden View, DataAnnotations, JavaScript, SSL, & DB | <ul><li> - [ ] </li></ul> |<ul><li> - [ ] </li></ul> |
-| 9.1| Easy/Intuitive *hidden* URL to Access Account Login | Hidden View | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 9.2 | Data Annotations Represent Register Form and DB Ex: [DataType(DataType.Password)] | DataAnnotations |<ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 9.3 | Requirements Set in Front-End and Back-End | JavaScript, [Requirements] | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 9.3.1 | Requirements Accurate , Logical and Match DB  *Ex: Password Length 7 Character Minimum*  |DB, Common Sense| <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 9.4 | Password Hashed in DB | Hash | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 9.5 | SSL | Azure Settings (cost $) | <ul><li> - [ ] </li></ul>| N/A |
-| 10 | Unit Test Written | Test Explorer | <ul><li> - [ ] </li></ul> | N/A |
-| 11 | Deliverable Photographs | Link/Generator, Azure BLOB, DB, & Hashing | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 11.1 | Generating Random Links for Clients |  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 11.1.1 | Links Hold Images On Containers Linked to Their Azure BLOB | Azure BLOB & DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-| 11.2 | Safe-Access Key if Client Wants Their Images Secret | Hashed Key & DB | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| ID   | Requirements                                          | How?|        Being Met?         |    Unit Test Passing?     |
+|:--:  | :-:|:-:|:-:|:-:|
+|  1   |Page Structure(Header/Footer)                          |.NET | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.1  |Every Header will display company logo                 | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.2  |Every logo will redirect to home when clicked          | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.3  |Every Header will have a link to the "Log in" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.4  |Every Header will have a link to the "Sign up" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.5  |Every Header will have a link to the "Help" page       | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.6  |Every Header will have a link to the "Blog" page       | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.7  |Every Footer will display link to Contact us page      | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.8  |Every Footer will display link to Terms & Cond.        | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.9  |Every Footer will display link to Privacy Policy       | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.10 |The Homepage will have a link to the "Log in" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.11 |Header will have a Mobile Responsive Design            | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 1.12 |Every page will have intuitive URLS                    | MVC | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|  2   |Page Structure(Home Page)                              |.NET | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 2.1  |The Homepage will have a link to the "About" page      | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 2.2  |The Homepage will have a link to the "Sign up" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 2.3  |The Homepage will have a link to the "Courses" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 2.4  |The Homepage will have a link to the "Investing" page  | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 2.5  |The Homepage will have a link to the "Savings" page    | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+| 2.6  |The Homepage will have a link to the "Credit" page     | CSS | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
 
 <h2>Prioritized Backlog Items</h2>
 
 |Task ID|Requirement|
 |:-:|:-|
-|10 | Starting to develop unit test| 
+|  10 | Starting to develop unit test| 
 | 4.2 |Integrating Azure BLOB To Create Containers & Then Images to Those Containers| 
 | 4.1 | Reading Images From Azure BLOB		|
 | 2.2 |Using DB to Implement Reading "Potential Clients" From Admin Account	|
-| 9  | Adding Photographer Adminstrator Accounts	|
+| 9   | Adding Photographer Adminstrator Accounts	|
 |5.1 & 5.2|Add Shopping Page For Print Gallery| 
 |11.1.1|  Integrating Azure BLOB to Download Images From Photoshoots| 
 | 5.4 | Allow Users to Purchase Photoshoot Through Calender & Book Appointments On Their Own |
