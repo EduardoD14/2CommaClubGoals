@@ -92,4 +92,5 @@
 
 ## Physical Database Design 
 ![image](https://user-images.githubusercontent.com/47153835/56371824-b2011880-61b2-11e9-992b-e37be8be1ac3.png)
-#### <Center> [Take me to the Physical Database design ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Project%20Step%207.docx)
+#### <center> [Take me to the Physical Database design ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Project%20Step%207.docx)
+</center>
