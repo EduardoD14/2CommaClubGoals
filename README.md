@@ -34,7 +34,7 @@ that the web site is meeting the design objectives. Each requirement in the requ
 previously built portions of the website to ensure that all features are working as intended. 
 
 |   ID   | Requirements                                          | Being Met?                |    Unit Test Passing?     |
-|  :--:  | :-:|:-:|:-:|:-:|
+|  :--:  |:-:|:-:|:-:|
 |   1    |Page Structure(Header/Footer)                          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
 |  1.1   |Every Header will display company logo                 | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
 |  1.2   |Every logo will redirect to home when clicked          | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
