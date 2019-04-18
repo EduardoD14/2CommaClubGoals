@@ -1,0 +1,52 @@
+
+CREATE Database ICSFinances; 
+
+CREATE TABLE EDAVILA.ICSFinances.dbo.Users (
+	Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	HashedPassword varchar(100) NOT NULL,
+    UserName varchar(20)NOT NULL,
+    FirstName varchar(20)NOT NULL,
+	LastName varchar(20)NOT NULL,
+	EmailAddress varchar(100)NOT NULL,
+	Age int NOT NULL,
+	UserLevel int NOT NULL,
+	AccountStatus int NOT NULL,
+    EntryDate datetime NOT NULL,
+    UpdateDate datetime NOT NULL,
+   );
+
+CREATE TABLE EDAVILA.ICSFinances.dbo.Admins (
+	Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	UserName varchar(50) NOT NULL,
+    HashedPassword varchar(100) NOT NULL,
+	FirstName varchar(50) NOT NULL,
+    LastName varchar(50) NOT NULL,
+    EmailAddress varchar(150) NOT NULL,
+	AccountStatus int NOT NULL,
+	EntryDate datetime NOT NULL,
+    UpdateDate datetime NOT NULL,
+ );
+  
+  CREATE TABLE EDAVILA.ICSFinances.dbo.Levels (
+	Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	LevelDesc varchar(1000), 
+	EntryDate datetime NOT NULL,
+    UpdateDate datetime NOT NULL,
+ );
+
+  CREATE TABLE EDAVILA.ICSFinances.dbo.Calculators (
+	Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	CalcName varchar(40) NOT NULL,
+	SiteLocation varchar(100) NOT NULL,
+	CalcLevel int NOT NULL,
+	EntryDate datetime NOT NULL,
+    UpdateDate datetime NOT NULL,
+ );
+   CREATE TABLE EDAVILA.ICSFinances.dbo.Lessons (
+	Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	LessonName varchar(40) NOT NULL,
+	SiteLocation varchar(100) NOT NULL,
+	LsssonLevel int NOT NULL,
+	EntryDate datetime NOT NULL,
+    UpdateDate datetime NOT NULL,
+ );

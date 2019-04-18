@@ -11,7 +11,7 @@ namespace TwoCommaClubGoals.Controllers
         public ActionResult Index()
         {
             return View();
-        }
+        }   
 
         public ActionResult About()
         {
@@ -19,7 +19,14 @@ namespace TwoCommaClubGoals.Controllers
 
             return View();
         }
-
+        public ActionResult Blog()
+        {
+            return View();
+        }
+        public ActionResult Calculators()
+        {
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "If you would like to reach out to the 2CommaClub team \n feel free to do so using one of the methods below.";
