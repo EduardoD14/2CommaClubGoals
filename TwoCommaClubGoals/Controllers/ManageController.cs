@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using WebApplication1.Models;
+using TwoCommaClubGoals.Models;
 
-namespace WebApplication1.Controllers
+namespace TwoCommaClubGoals.Controllers
 {
     [Authorize]
     public class ManageController : Controller

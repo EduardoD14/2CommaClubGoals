@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebApplication1.Models
+namespace TwoCommaClubGoals.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
