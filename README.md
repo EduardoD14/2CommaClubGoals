@@ -10,7 +10,7 @@
 |Location|Content                        |
 |:-|-|
 |1| [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)	  |
-|2| [Power Point Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Power Point Presentation)	  |
+|2| [PowerPoint_Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Power Point Presentation)	  |
 |3| [Requirements Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements Traceability Matrix)	  |
 |4| [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized Backlog Items)	  |
 |5| [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database Design)	  |
@@ -19,7 +19,7 @@
 |8| [Entity Relationship Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity Relationship Diagram)	  |
 |9| [Physical Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical Database Design)	  |
 
-## PowerPoint Presentation
+## PowerPoint_Presentation
 
 ![image](https://user-images.githubusercontent.com/47153835/56358400-57a48f80-6193-11e9-807c-4b3c56aacd64.png)
 
