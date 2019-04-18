@@ -10,15 +10,14 @@
 |Location|Content                        |
 |:-|-|
 |1| [Domain](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md#2CommaClubGoals)	  |
-|2| [Table of Contents](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Table of contents)	  |
-|3| [Power Point Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Power Point Presentation)	  |
-|4| [Requirements Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements Traceability Matrix)	  |
-|5| [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized Backlog Items)	  |
-|6| [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database Design)	  |
-|7| [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Tests)	  |
-|8| [Use Case](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Use Case)	  |
-|9|[Entity Relationship Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity Relationship Diagram)	  |
-|10|[Physical Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical Database Design)	  |
+|2| [Power Point Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Power Point Presentation)	  |
+|3| [Requirements Traceability Matrix](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Requirements Traceability Matrix)	  |
+|4| [Prioritized Backlog Items](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Prioritized Backlog Items)	  |
+|5| [Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Database Design)	  |
+|6| [Tests](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Tests)	  |
+|7| [Use Case](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Use Case)	  |
+|8| [Entity Relationship Diagram](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Entity Relationship Diagram)	  |
+|9| [Physical Database Design](https://github.com/EduardoD14/2CommaClubGoals/blob/master/README.md##Physical Database Design)	  |
 
 ## PowerPoint Presentation
 
@@ -26,7 +25,7 @@
 
 #### <center>                [Link to Latest PowerPoint Presentation](https://github.com/EduardoD14/2CommaClubGoals/blob/master/2CommaClubGoals.pdf)
 
-## Requirements traceability matrix
+## Requirements Traceability Matrix
 ##<i> The functional requirements for the project will be tested to ensure 
 that the web site is meeting the design objectives. Each requirement in the requirements traceability matrix
  will have a corresponding test case or unit test that describes how each individual requirement can be validated. Routine
