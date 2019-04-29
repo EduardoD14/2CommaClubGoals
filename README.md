@@ -87,6 +87,7 @@ previously built portions of the website to ensure that all features are working
 
 >*Note
 > I= inspection, D= Demonstration, T=Test, A=Analysis
+>T&D = Time and Date
 <h2>Prioritized Backlog Items</h2>
 
 |Task ID|Requirement|
