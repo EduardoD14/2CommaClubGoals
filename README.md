@@ -32,59 +32,161 @@ that the web site is meeting the design objectives. Each requirement in the requ
  testing will occur to not only validate new build in the website but also to test 
 previously built portions of the website to ensure that all features are working as intended. 
 
-|   ID   | Requirements                                          | Being Met?                |    Unit Test Passing?     |
-|  :--:  |:-:|:-:|:-:|
-|   1    |Page Structure(Header/Footer)                          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.1   |Every Header will display company logo                 | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.2   |Every logo will redirect to home when clicked          | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.3   |Every Header will have a link to the "Log in" page     | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.4   |Every Header will have a link to the "Help" page       | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.5   |Every Header will have a link to the "Blog" page       | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.6   |Every Header will have a dropdown menu                 | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.6.1 |The Dropdown will have a link to the "Courses" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.6.2 |The Dropdown will have a link to the "Register" page   | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.6.3 |The Dropdown will have a link to the "Log in" page     | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.6.4 |The Dropdown will have a link to the "Blog" page       | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.6.5 |The Dropdown will have a link to the "Common Calc"page | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.7   |Every Footer will display link to Contact us page      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.8   |Every Footer will display link to Terms & Cond. page   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.9   |Every Footer will display link to Privacy Policy page  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.10  |The Homepage will have a link to the "Log in" page     | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.11  |Header will have a Mobile Responsive Design            | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  1.12  |Every page will have intuitive URLS                    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|   2    |Page Structure(Home Page)                              | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  2.1   |The Homepage will have a link to the "About" page      | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  2.2   |The Homepage will have a link to the "Sign up" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  2.3   |The Homepage will have a link to the "Courses" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  2.4   |The Homepage will have a link to the "Investing" page  | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  2.5   |The Homepage will have a link to the "Savings" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  2.6   |The Homepage will have a link to the "Credit" page     | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |
-|   3    |Page Structure(About)                                  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.1   |The about page will display the mission statement      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.2   |The about page will display the site story             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.3   |The about page will display the terms and conditions   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.4   |The about page will display the privacy policy         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.5   |The about page will display links to social media sites| <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.6   |The about page will display future features            | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.7   |The about page will display Frequently asked questions | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  3.8   |The about page will display a photo disclaimer         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|   4    |Page Structure(Sign-Up)                                | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1   |The Sign-up page will have an active form field        | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.1 |The field will have a First Name box                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.2 |The field will have a Last Name box                    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.3 |The form field will have a User Name box               | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.4 |The form field will have a Email box                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.5 |The form field will have a Password box                | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.6 |The form field will have a Phone Number  box           | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.7 |The fields give err message when submitted null        | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  4.1.8 |The fields give an err message when filled incorrectly | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|   5    |Page Structure(Log-in)                                 | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  5.1   |The Log-In page will have an active form field         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  5.1.1 |The form field will have a User Name box               | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  5.1.2 |The form field will have a Password box                | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  5.1.3 |The form fields give err message when required are null| <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
-|  5.1.4 |The fields give an err message when filled incorrectly | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |
+|   ID   | Requirement                                           | Requirement Being Met?    |    Unit Test Passing?     |Method*|D&T|
+|  :--:  |:-:|:-:|:-:|:-:|:-:|
+| 1      |Page Structure(Header)                                 | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.1    |Every header will display company logo                 | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.2    |Every logo will redirect to home when clicked          | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.3    |Every header will have a link to the "Home" page       | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.4    |Every header "Home" page link will work                | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.5    |Every header will have a link to the "About" page      | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.6    |Every header "About" page link will work               | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.7    |Every header will have a link to the "Contact" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.8    |Every header "Contact" page link will work             | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.9    |Every Header will have a link to the "Blog" page       | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.10   |Every header "Blog" page link will work                | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.11   |Every header will have a link to the "Register" page   | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.12   |Every header "Register" page link will work            | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.13   |Every header will have a link to the "Log in" page     | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.14   |Every header "Log in" page link will work              | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.15   |Header will have a Mobile Responsive Design            | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.16   |Every page will have intuitive URLS                    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 1.17   |Every Header will have a dropdown menu                 | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2      |Page Structure(Header-DropDown Menu)                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.1    |The Dropdown will display dropdown menu when clicked   | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.2    |The Dropdown will have a link to the "Courses" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.3    |The "Courses" page link in dropdown menu will work     | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.4    |The Dropdown will have a link to the "Register" page   | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.5    |The "Register" page link in dropdown menu will work    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.6    |The Dropdown will have a link to the "Log in" page     | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.7    |The "Log in" page link in dropdown menu will work      | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.8    |The Dropdown will have a link to the "Blog" page       | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.9    |The "Blog" page link in dropdown menu will work        | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.10   |The Dropdown will have a link to the "Common Calc"page | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 2.11   |The "Common Calc" page link in dropdown menu will work | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3      |Page Structure(Footer)                                 | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.1    |Every footer will display link to Contact us page      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.2    |Every footer "Contact" page link will work             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.3    |Every Footer will display link to "Terms & Cond." page | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.4    |Every footer "Terms & Cond." page link will work       | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.5    |Every Footer will display link to "Privacy Policy" page| <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.6    |Every footer "Privacy Policy" page link will work      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.7    |Every footer will have a link to the "FAQ" page        | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 3.8    |Every footer "FAQ" page link will work                 | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  4     |Page Structure(Home Page)                              | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.1    |The Homepage will have a link to the "About" page      | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.2    |The Homepage "About" page link will work               | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.3    |The Homepage will have a link to the "Sign up" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.4    |The Homepage "Sign up" page link will work             | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.5    |The Homepage will have a link to the "Courses" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.6    |The Homepage "Courses" page link will work             | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.8    |The Homepage will have a link to the "Investing" page  | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.9    |The Homepage "Investing" page link will work           | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.10   |The Homepage will have a link to the "Savings" page    | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.11   |The Homepage "Savings" page link will work             | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.12   |The Homepage will have a link to the "Credit" page     | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 4.13   |The Homepage "Credit" page link will work              | <ul><li> - [x] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  5     |Page Structure(About Page)                             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.1    |Page will display the mission statement                | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.2    |Page will display link to the "Site Story" page        | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.3    |The "Site Story" page link will work                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.4    |Page will display link to the "Terms & Conditions"     | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.5    |The "Terms & Conditions" page link will work           | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.6    |Page will display link to the "Privacy Policy"         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.7    |The "Privacy Policy" page link will work               | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.8    |Page will display links to social media sites          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.9    |The social media sites page link will work             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.10   |Page will display future features                      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.11   |Page will display link to "FAQ" page                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 5.12   |The "FAQ" page link will work                          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  6     |Page Structure(Register Page)                          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1  |The Register page will have an active form field         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.1  |The form field will have a First Name box              | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.2  |The First name field will err if submitted null        | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.3  |The First name field will err if submitted incorrectly | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.4  |The field will have a Last Name box                    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.5  |The Last name field will err if submitted null         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.6  |The Last name field will err if submitted incorrectly  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.7  |The form field will have a User Name box               | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.8  |The User name field will err if submitted null         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.9  |The User name field will err if submitted incorrectly  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.10 |The form field will have a Email box                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.11 |The Email field will err if submitted null             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.12 |The Email field will err if submitted incorrectly      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.13 |The form field will have a Password box                | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.14 |The Password field will err if submitted null          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.15 |The Password field will err if submitted incorrectly   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.16 |The form field will have a Phone Number  box           | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.17 |The Phone num field will err message if submitted null | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 6.1.18 |The Phone num field will err if submitted incorrectly  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  7     |Page Structure(Log-in)                                 | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1    |The Log-In page will have an active form field         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.1  |The form field will have a User Name box               | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.2  |The User name field will err if submitted null         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.3  |The User name field will err if submitted incorrectly  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.4  |The form field will have a Password box                | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.5  |The Password field will err if submitted null          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.6  |The Password field will err if submitted incorrectly   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.7  |The form field will have a link to "Register" page     | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.8  |Every header "Register" page link will work            | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.9  |The form field will have a "Log in" button             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.10 |The "Log in" button will work                          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.11 |The form field will have a "Remember me?" check box    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 7.1.12 |The "Remember me?" check box will work                 | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  8     |Page Structure(Account Page)                           | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.1    |The Account page will display account details          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.2    |The Account page will have button to modify account    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3    |Modify button will link to form field to make changes  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.1  |Account change form will have First name field         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   | 
+| 8.3.2  |The First name field will err if submitted null        | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.3  |The First name field will err if submitted incorrectly | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.4  |The Account change form will have a Last Name box      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.5  |The Last name field will err if submitted null         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.6  |The Last name field will err if submitted incorrectly  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.7  |The Account change form will have a User Name box      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.8  |The User name field will err if submitted null         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.9  |The User name field will err if submitted incorrectly  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.10 |The Account change form will have a Email box          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.11 |The Email field will err if submitted null             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.12 |The Email field will err if submitted incorrectly      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.13 |The Account change form will have a Password box       | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.14 |The Password field will err if submitted null          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.15 |The Password field will err if submitted incorrectly   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.16 |The Account change form will have a Phone Number  box  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.17 |The Phone num field will err message if submitted null | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.3.18 |The Phone num field will err if submitted incorrectly  | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 8.4    |Account change form will have submit changes button    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  9     |Page Structure(Courses Page)                           | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 9.1    |The Courses page will display courses available        | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 9.1.1  |The Courses page will display link to each course      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 9.1.2  |The Courses page will display course descriptions      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 9.1.3  |Each course link displayed will work                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 9.1.4  |The Courses page will display course names             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  10    |Page Structure(Course Page)                            | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 10.1   |The Course page will display Lessons available         | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 10.1.1 |The Course page will display link to each lesson       | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 10.1.2 |The Course page will display lesson descriptions       | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 10.1.3 |Each lesson link displayed will work                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 9.1.4  |The Course page will display lesson names              | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 10.2   |The Course page will display a course description      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 10.3   |The Course page will display link to "Courses" page    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 10.4   |The link to "Courses" page will work                   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  11    |Page Structure(Blog Page)                              | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 11.1   |The Blog page will display a page description          | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 11.2   |The Blog page will display Blogs available             | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 11.3   |The Blog page will display link to each blog           | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 11.4   |The Blog page will display blog descriptions           | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+|  12    |Page Structure(Common Calculators Page)                | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 12.1   |The Common Calc page will display a page description   | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 12.2   |The Common Calc page will display calcs available      | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 12.3   |The Common Calc page will display link to each calc    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+| 12.4   |The Common Calc page will display calc descriptions    | <ul><li> - [ ] </li></ul> | <ul><li> - [ ] </li></ul> |   I   |   |
+>*Note
+> I= inspection, D= Demonstration, T=Test, A=Analysis
+> The majority of requirements are being tested through inspection and demonstration. 
+> When the unit tests are all complete I will add them to the Unittest.cs file
 
+>T&D = Time and Date
 <h2>Prioritized Backlog Items</h2>
 
 |Task ID|Requirement|
