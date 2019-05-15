@@ -4,61 +4,31 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - 2 Comma Club Goals .com</title>
-
     <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/2-comma-club.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/"><img src="~/Images/Logo.png" height="25" width="25"></a>
-                <a class="navbar-brand" href="/">2 Comma Club Goals</a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li class="active"><a href="/Home/About">About</a></li>
-                    <li class="active"><a href="/Home/Contact">Contact</a></li>
-                    <li class="active dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item"><a href="/Home/Courses">Courses</a></li>
-                            <li role="separator" class="divider"></li>
 
-                            <li class="nav-item"><a href="/Account/Register" id="registerLink">Register</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="nav-item"><a href="/Account/Login" id="loginLink">Log in</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="nav-item"><a href="/Home/Blog">Blog</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="nav-item"><a href="/Home/Calculators">Common Calculators</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </nav>
+    @Html.Partial("_HeaderPartial")
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>@DateTime.Now.Year - 2 Comma Club Goals</p>
-        </footer>
     </div>
-
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    @Html.Partial("_FooterPartial")
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7858204342458252",
+    enable_page_level_ads: true
+  });
+    </script>
 </body>
 </html>

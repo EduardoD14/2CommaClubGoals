@@ -25,6 +25,7 @@ namespace TwoCommaClubGoals.Controllers
         }
         public ActionResult Calculators()
         {
+            ViewBag.Message = " Use some of these common calculators to help you complete your financial goals";
             return View();
         }
         public ActionResult Contact()

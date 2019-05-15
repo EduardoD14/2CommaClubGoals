@@ -4966,7 +4966,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     }
 
 .navbar-inverse {
-    background-color: #222;
+    background-color: #292c2f;
     border-color: #080808
 }
 
@@ -5349,6 +5349,9 @@ a.badge:focus, a.badge:hover {
 }
 
 .jumbotron {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
@@ -5380,7 +5383,7 @@ a.badge:focus, a.badge:hover {
     max-width: 100%
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:100%) {
     .jumbotron {
         padding-top: 48px;
         padding-bottom: 48px
