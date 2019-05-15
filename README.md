@@ -246,7 +246,8 @@ previously built portions of the website to ensure that all features are working
 ![image](https://user-images.githubusercontent.com/47153835/56371824-b2011880-61b2-11e9-992b-e37be8be1ac3.png)
 #### <center> [Take me to the Physical Database design ](https://github.com/EduardoD14/2CommaClubGoals/blob/master/Weekly%20Steps/Project%20Step%207.docx)
 </center>
-##Lessons Learned
+
+## Lessons Learned
 ###There are many things to learn from coding. Like all things, it ties into the rest of your daily life.
 ###Here are a few lessons I learned over the last few months learning to code and working on this project.
 ####Your code isn’t perfect but it is good enough.
