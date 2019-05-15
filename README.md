@@ -248,19 +248,19 @@ previously built portions of the website to ensure that all features are working
 </center>
 
 ## Lessons Learned
-###There are many things to learn from coding. Like all things, it ties into the rest of your daily life.
-###Here are a few lessons I learned over the last few months learning to code and working on this project.
-####Your code isn’t perfect but it is good enough.
-#####If you spend working on a single feature you will never get to the rest of the project. It is important to stay on track and ensure that you are meeting milestones. I wish I could have done more but there is a lifetime to keep working on this project.
-####There will be a multitude of people out there looking to help you out.
-#####You never know who knows exactly what you need to know for project. Be open to asking as many people as possible. Often times you will run into at least one person who can help you. 
-####You have to keep learning.
-#####This is a learning process. You can not expect to start coding the next billion dollar idea on day 1. Work on your project but make sure you set aside time to learn about why your project works and what you can do to improve.
-####Code every day.
-#####Coding is like working out. The more you do it the more you want to grow in strength. Conversly, if you do not work out your skills every day you will get weaker and time adds up. There were times where I did not code for days. When I picked it back up I always took a day or so to get back into the groove.
-####Build a variety of things.
-#####Sure it is good to master a skill; however, it is also good to diversify your skillset. It is a good idea to work on different projects so you open yourself to more opportunities to learn.
-####Have FUN!
-#####Coding, like most skills, is easier when you enjoy doing it. If you find yourself getting frustrated it might be a good idea to take a break and come back with a fresh mindset.
+### There are many things to learn from coding. Like all things, it ties into the rest of your daily life.
+### Here are a few lessons I learned over the last few months learning to code and working on this project.
+#### Your code isn’t perfect but it is good enough.
+##### If you spend working on a single feature you will never get to the rest of the project. It is important to stay on track and ensure that you are meeting milestones. I wish I could have done more but there is a lifetime to keep working on this project.
+#### There will be a multitude of people out there looking to help you out.
+##### You never know who knows exactly what you need to know for project. Be open to asking as many people as possible. Often times you will run into at least one person who can help you. 
+#### You have to keep learning.
+##### This is a learning process. You can not expect to start coding the next billion dollar idea on day 1. Work on your project but make sure you set aside time to learn about why your project works and what you can do to improve.
+#### Code every day.
+##### Coding is like working out. The more you do it the more you want to grow in strength. Conversly, if you do not work out your skills every day you will get weaker and time adds up. There were times where I did not code for days. When I picked it back up I always took a day or so to get back into the groove.
+#### Build a variety of things.
+##### Sure it is good to master a skill; however, it is also good to diversify your skillset. It is a good idea to work on different projects so you open yourself to more opportunities to learn.
+#### Have FUN!
+##### Coding, like most skills, is easier when you enjoy doing it. If you find yourself getting frustrated it might be a good idea to take a break and come back with a fresh mindset.
 
 
